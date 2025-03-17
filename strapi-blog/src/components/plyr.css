@@ -1,0 +1,12 @@
+.plyr__controls {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+  }
+  
+  .plyr:hover .plyr__controls,
+  .plyr:focus-within .plyr__controls {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
